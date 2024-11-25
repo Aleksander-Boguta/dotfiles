@@ -1,0 +1,25 @@
+
+[window]
+dimensions = { columns = 120, lines = 30 }
+decorations = "none"
+[window.padding]
+x = 7
+y = 0
+[font.normal]
+
+family = "UbuntuMono Nerd Font"
+[font]
+size = 25
+
+
+[scrolling]
+# Enable or disable scrolling with the mouse
+history = 10000
+
+[general]
+import = ["~/.config/alacritty/themes/gruvbox_dark.toml"]
+
+#[terminal]
+
+#[terminal.shell]
+#program = "tmux"
