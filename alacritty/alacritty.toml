@@ -1,6 +1,6 @@
 
 [window]
-dimensions = { columns = 120, lines = 30 }
+#dimensions = { columns = 120, lines = 30 }
 decorations = "none"
 [window.padding]
 x = 7
@@ -19,7 +19,7 @@ history = 10000
 [general]
 import = ["~/.config/alacritty/themes/gruvbox_dark.toml"]
 
-#[terminal]
+[terminal]
 
-#[terminal.shell]
-#program = "tmux"
+[terminal.shell]
+program = "/opt/homebrew/bin/tmux"
