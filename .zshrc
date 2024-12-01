@@ -17,6 +17,9 @@ export PATH="$PATH:/Users/aleksander/.dotnet/tools"
 alias cdls='cd "$1" && ls "$1"'
 alias v='nvim'
 alias la='ls -a'
+alias ga='git add'
+alias gp='git push'
+alias gc='git commit'
 
 
 #Prompt
